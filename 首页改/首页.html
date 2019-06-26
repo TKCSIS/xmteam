@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天猫</title>
+    <link rel="stylesheet" href="./css/首页.css">
+    <link rel="stylesheet" href="./css/首页2.css">
+    <style>
+        la-dv .child-dv1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 0;
+            display: none;
+            /* 透明度，0表示看不到，完全透明 */
+            opacity: 0;
+            /* 过度动画效果 */
+            transition: opacity 3s ease-in;
+
+        }
+
+        .la-dv {
+            opacity: 0.5;
+            /* 过度动画效果 */
+            transition: opacity .3s ease-in;
+
+
+        }
+
+        .la-dv:hover {
+            opacity: 1;
+        }
+
+        .la-dv:hover .child-dv1 {
+            display: block;
+            opacity: 1;
+            /* 过度动画效果 */
+            transition: opacity 3s ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mallPage">
+
+        <div id="顶部栏">
+            <div id="顶部栏文字">
+                <p id="login-info">
+                    <a href="#">喵，欢迎来天猫</a>
+                    <a href="#">请登录</a>
+                    <a href="#">免费注册</a>
+                </p>
+
+                <ul class="sn-quick-menu">
+                    <li><a href="#">我的淘宝
+                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
+
+                        </a>
+
+                    </li>
+                    <li><a href="#">
+                            <i class="fa  fa-shopping-cart"></i>
+                            购物车0件
+                        </a></li>
+                    <li><a href="#">收藏夹
+                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc"></i>
+                        </a></li>
+                    <li><a style="border-left: 1px solid white;padding: 0px"></a></li>
+                    <li><a href="#">
+                            <i class="fa fa-mobile-phone fa-lg" style="color: #FFF"></i>
+
+                            手机版</a></li>
+                    <li><a href="#">淘宝网</a></li>
+                    <li><a href="#">商家支持
+                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
+
+                        </a>
+                    </li>
+                    <li><a href="#">网站导航
+                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
+                        </a></li>
+
+                </ul>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="header">
+
+        <div class="headerLayout">
+
+            <div id="mallSearch">
+                <div class="search">
+                    <form action="#">
+                        <input class="search-input-text" placeholder="搜索 天猫 商品/品牌/店铺" type="text" name="" id="">
+                        <button class="search-button" type="submit">搜 索</button>
+                    </form>
+
+                    <div style="clear: both"></div>
+</body>
+
+</html>
