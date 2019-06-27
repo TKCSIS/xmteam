@@ -218,7 +218,7 @@
     -webkit-filter: opacity(50%)
 }
 
-.newHotBrand {}
+
 
 
 
@@ -231,16 +231,16 @@
 }
 
 .brand-list img {
-    height: 50px;
+    height: 60px;
     position: relative;
-    top: 25px;
+    top: 30px;
 
 }
 
 .brand-list li {
 
-    width: 121px;
-    height: 108px;
+    width: 120px;
+    height: 120px;
     float: left;
     margin: 1px;
     background-color: white;
