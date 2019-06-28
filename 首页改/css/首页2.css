@@ -51,6 +51,8 @@
 
 }
 
+/*顶部栏设置*/
+
 
 
 
@@ -99,6 +101,8 @@
     font-family: '\5FAE\8F6F\96C5\9ED1', arial, "\5b8b\4f53";
 }
 
+/*搜索栏设置*/
+
 .hot {
     padding-top: 4px;
 }
@@ -114,6 +118,8 @@
     color: #999;
     font-size: 14px;
 }
+
+/*搜索热词设置*/
 
 .navigation-bar1-inner {
     width: 1230px;
@@ -764,7 +770,6 @@
 .dropdown2-content a {
     color: #a9180a;
     font-size: 8px;
-
 }
 
 .dropdown2-content a:hover {
