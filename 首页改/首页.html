@@ -5,94 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>天猫</title>
+    <title>天猫tmall.com--理想生活上天猫</title>
     <link rel="stylesheet" href="./css/首页.css">
     <link rel="stylesheet" href="./css/首页2.css">
-    <style>
-        la-dv .child-dv1 {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            z-index: 0;
-            display: none;
-            /* 透明度，0表示看不到，完全透明 */
-            opacity: 0;
-            /* 过度动画效果 */
-            transition: opacity 3s ease-in;
 
-        }
-
-        .la-dv {
-            opacity: 0.5;
-            /* 过度动画效果 */
-            transition: opacity .3s ease-in;
-
-
-        }
-
-        .la-dv:hover {
-            opacity: 1;
-        }
-
-        .la-dv:hover .child-dv1 {
-            display: block;
-            opacity: 1;
-            /* 过度动画效果 */
-            transition: opacity 3s ease-in;
-        }
-    </style>
 </head>
 
 <body>
     <div id="mallPage">
 
-        <div id="顶部栏">
-            <div id="顶部栏文字">
+        <div id="top">
+            <div id="top-character">
                 <p id="login-info">
                     <a href="#">喵，欢迎来天猫</a>
                     <a href="#">请登录</a>
                     <a href="#">免费注册</a>
                 </p>
+                <ul class="top-menu">
+                    <ul class="dropdown">
 
-                <ul class="sn-quick-menu">
-                    <li><a href="#">我的淘宝
-                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
+                        <li><a href="#">我的淘宝</a>
 
-                        </a>
+                            <div class="dropdown-content">
+                                <a href="#">已买到的宝贝</a>
+                                <a href="#">已卖出的宝贝</a>
+                            </div>
 
-                    </li>
+                        </li>
+
+                    </ul>
+
                     <li><a href="#">
                             <i class="fa  fa-shopping-cart"></i>
                             购物车0件
                         </a></li>
-                    <li><a href="#">收藏夹
-                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc"></i>
-                        </a></li>
+                    <ul class="dropdown">
+                        <li><a href="#">收藏夹</a>
+                            <div class="dropdown-content">
+                                <a href="#">收藏的宝贝</a>
+                                <a href="#">收藏的店铺</a>
+                            </div>
+                        </li>
+                    </ul>
                     <li><a style="border-left: 1px solid white;padding: 0px"></a></li>
                     <li><a href="#">
                             <i class="fa fa-mobile-phone fa-lg" style="color: #FFF"></i>
 
                             手机版</a></li>
                     <li><a href="#">淘宝网</a></li>
-                    <li><a href="#">商家支持
-                            <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
-
-                        </a>
-                    </li>
+                    <ul class="dropdown2">
+                        <li><a href="#">商家支持</a>
+                            <div class="dropdown2-content">
+                                <div style="font-size: 8px">商家：</div>
+                                <a href="#">商家中心</a>
+                                <a href="#">天猫规则</a>
+                                <a href="#">商家入驻</a>
+                                <a href="#">运营服务</a>
+                                <a href="#">商家品控</a>
+                                <a href="#">商家工具</a>
+                                <a href="#">天猫智库</a>
+                                <a href="#">喵言喵语</a>
+                                <div style="font-size: 8px">帮助：</div>
+                                <a href="#">帮助中心</a>
+                                <a href="#">问商友</a>
+                            </div>
+                        </li>
+                    </ul>
                     <li><a href="#">网站导航
                             <i style="color:rgb(182, 182, 182)" class="fa fa-sort-desc "></i>
                         </a></li>
 
                 </ul>
+
                 <div style="clear: both"></div>
             </div>
         </div>
 
     </div>
 
-    <div id="header">
+    <div id="search">
 
-        <div class="headerLayout">
+        <div class="search-box">
 
             <div id="mallSearch">
                 <div class="search">
@@ -105,7 +98,7 @@
                 </div>
 
 
-                <ul class="hot-query">
+                <ul class="hot">
                     <li style="border-color: #FFF;padding-left: 0px;"><a href="#">针织帽</a></li>
                     <li><a href="#" style="color: red">连衣裙</a></li>
                     <li><a href="#">四件套</a></li>
@@ -125,10 +118,10 @@
     </div>
     <div id="content">
 
-        <div class="main-nav">
+        <div class="navigation-bar1">
 
-            <div class="main-nav-inner">
-                <div class="main-nav-inner2">
+            <div class="navigation-bar1-inner">
+                <div class="navigation-bar1-inner2">
                     <a href="#"> <img alt="" width="100px" height="30px"
                             src="https://img.alicdn.com/tfs/TB1ztBlaMMPMeJjy1XbXXcwxVXa-200-60.png">
                     </a>
@@ -152,14 +145,14 @@
             </div>
 
         </div>
-        <div class="category">
-            <div class="category-con">
+        <div class="navigation-bar2">
+            <div class="navigation-bar2-con">
 
                 <div class="logo">
                     <img class="tmall-logo-img" src="https://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png"
                         width="240px" height="130px">
                 </div>
-                <div class="category-type">
+                <div class="navigation-bar2-type">
                     <i style="color: white;margin-left: 15px;" class=" fa fa-list"></i>
                     <span>商品分类</span>
                 </div>
@@ -196,7 +189,8 @@
                         </li>
                         <li><i class="fa fa-suitcase"></i>
 
-                            <a>零食</a>/<a>茶酒</a>/<a>进口食品</a>
+                            <a>零食</a>/<a href="#" style="color: white">茶叶
+                            </a>/<a>进口食品</a>
                         </li>
                         <li><i class="fa fa-s15"></i>
 
@@ -240,13 +234,13 @@
             </div>
 
         </div>
-        <div class="activity-bg">
+        <div class="activity-guide">
 
-            <div class="brandWall">
+            <div class="guide">
 
-                <div class="brandWallBody">
+                <div class="guideBody">
 
-                    <div class="brandWall-item">
+                    <div class="guide-item">
                         <div class="head">
                             <span class="cn">品牌闪购</span>
                             <span class="en">BRAND SALE</span>
@@ -263,7 +257,7 @@
 
                     </div>
 
-                    <div class="brandWall-item">
+                    <div class="guide-item">
                         <div class="head">
                             <span class="cn">聚名品</span>
                             <span class="en">LUXURY CHANNEL</span>
@@ -279,7 +273,7 @@
 
                     </div>
 
-                    <div class="brandWall-item" style="margin: 0px">
+                    <div class="guide-item" style="margin: 0px">
                         <div class="head">
                             <span class="cn">品牌活动</span>
                             <span class="en">BRAND ACTIVITY</span>
@@ -303,7 +297,7 @@
 
             <div class="newHotBrand">
 
-                <div class="brand-list">
+                <div class="brand-guide">
 
                     <ul>
                         <li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/TB1OK1mKVXXXXbMXXXXSutbFXXX.jpg"
@@ -390,6 +384,1404 @@
 
 
             </div>
+            <div class="newFloor">
+                <div class="partition">
+                    <div class="partition-name">
+                        <img src="https://img.alicdn.com/tfs/TB1Q67hXPihSKJjy0FeXXbJtpXa-428-50.png">
+                    </div>
+
+                    <div class="line-body">
+                        <div class="partition-hot">
+                            <a href="#">进口食品</a>
+                            <a href="#">食品饮料</a>
+                            <a href="#">粮油副食</a>
+                            <a href="#">美容洗护</a>
+                            <a href="#">家居家电</a>
+                            <a href="#">家庭清洁</a>
+                            <a href="#">母婴用品</a>
+                            <a href="#">生鲜水果</a>
+                        </div>
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tfs/TB1oquGGv9TBuNjy0FcXXbeiFXa-468-1236.png"
+                                        alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">天猫超市</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">聚粮油调味</span>
+                                            <span class="right-title2">爆款直降</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i2/725677994/O1CN01kV3L9g28vIgp2LrHT_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">
+                                            【天猫超市】越南进口Tipo牛奶面包原味糕点早餐300g代餐饼干散装零食礼包</div>
+                                        <div class="price">¥16.80</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i4/725677994/TB2kTEOc9zqK1RjSZPcXXbTepXa_!!725677994-0-sm.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">
+                                            【天猫超市】印尼进口丽芝士Richeese雅嘉奶酪玉米棒160g网红休闲零食小包装</div>
+                                        <div class="price">¥10.80</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i1/725677994/O1CN01367KwM28vIgloc5gY_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            零度可乐 330ml*24罐/箱 整箱装 可口可乐出品</div>
+                                        <div class="price">¥69</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i3/725677994/O1CN01T6gTJQ28vIghAYmkn_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            百事可乐无糖碳酸饮料整箱330ml*24罐百事出品</div>
+                                        <div class="price">¥55.90</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i3/725677994/O1CN017IwTmT28vIgl1vZiI_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            十月稻田稻花香大米 5kg东北大米东北稻花香米可与杂粮搭配</div>
+                                        <div class="price">55.0</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i4/725677994/O1CN0184EOeu28vIghIIvkJ_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            康师傅 红烧牛肉面 103g*12桶 整箱装 方便面泡面</div>
+                                        <div class="price">¥43.20</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i4/725677994/O1CN01jLiJ4N28vIgjUUAPn_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            苏泊尔不粘锅炒锅家用不沾锅炒菜锅30cm煤气燃气灶明火专用送木铲</div>
+                                        <div class="price">139.0</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i4/725677994/O1CN01k1pafL28vIgpvk7Pb_!!0-item_pic.jpg_160x160.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【天猫超市】
+                                            特百惠茶韵随心水杯子500ml塑料防漏便携运动茶杯</div>
+                                        <div class="price">¥106.0</div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <img src="https://img.alicdn.com/tfs/TB1R.slXGagSKJjy0FgXXcRqFXa-428-50.png">
+                    </div>
+
+                    <div class="line-body">
+                        <div class="partition-hot">
+                            <a href="#">口红</a>
+                            <a href="#">YSL</a>
+                            <a href="#">面膜</a>
+                            <a href="#">防嗮</a>
+                            <a href="#">迪奥</a>
+                        </div>
+
+                        <div>
+
+                            <div style="width:235px;float: left;">
+                                <div class="partition-print-1" style="margin-bottom:15px;">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/tps/i4/TB1K90VaUGF3KVjSZFmwu2qPXXa.png" alt="">
+
+                                        <div class="banner-detail">
+
+                                            <div class="left-title-wrap">
+                                                <span class="left-title">进口精选</span>
+                                            </div>
+                                            <div class="right-title-wrap">
+                                                <span class="right-title1">大牌好货</span>
+                                                <span class="right-title2">轻松购入</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="detail-wrap">
+                                            <img class="floor-arrow-big"
+                                                src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="partition-print-1">
+                                    <a href="#">
+                                        <img src="https://img.alicdn.com/tps/i4/TB1MXT8aMaH3KVjSZFjwu3FWpXa.png" alt="">
+
+                                        <div class="banner-detail">
+
+                                            <div class="left-title-wrap">
+                                                <span class="left-title">直营品质</span>
+                                            </div>
+                                            <div class="right-title-wrap">
+                                                <span class="right-title1">放心体验</span>
+                                                <span class="right-title2">畅享全球</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="detail-wrap">
+                                            <img class="floor-arrow-big"
+                                                src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i1/2194810384/O1CN011EhuYUgwOcqTfKA_!!2194810384.png"
+                                            alt="">
+
+                                        <div class="commodity-name">日本狮王控油洗面奶女清洁毛孔控油祛痘清爽洗面奶洁面乳淡化痘印</div>
+                                        <div class="price">¥5.00</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i2/2532208428/O1CN014rp2Hx2C84WuHochV_!!2532208428.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">资生堂洗颜专科洗面奶 2支 日本柔澈泡沫清洁控油补水洁面乳保税</div>
+                                        <div class="price">¥69.90</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i1/2794622636/O1CN01pRQ7lL1VLKYIEuqGo_!!2794622636.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">日本kao花王直供洗衣液量贩套装玫瑰香无荧光剂820g+替换装715g*2</div>
+                                        <div class="price">¥89.00</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i1/2549841410/O1CN01sPqWUJ1MHoxOg5IJD_!!2549841410-0-sm.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【直营】意大利MARVIS玛尔斯牙膏清新口气长效洁净牙膏中的爱马仕</div>
+                                        <div class="price">¥49.00</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i2/2750828893/O1CN01svxPKG2FZ2kdUIp3d_!!2750828893.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">卡迪那薯条40g 海苔味盐味地瓜条 散装 台湾进口休闲零食</div>
+                                        <div class="price">¥12.00</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i2/2559015013/O1CN01QxyrmN1mu00q9z6NO_!!2559015013.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">雀巢瑞士进口金牌无糖纯咖啡 雀巢速溶黑咖啡咖啡粉罐装200g</div>
+                                        <div class="price">¥149.00</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i2/3075140505/O1CN01dpxnKc1FbKUMGW9fk_!!3075140505.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">ALDI奥乐齐 澳洲进口天然全脂牛奶1L*6盒装 纯正高钙营养成人学生</div>
+                                        <div class="price">¥179.40</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://img.alicdn.com/bao/uploaded/i4/4241364049/O1CN01rNMv6d1fmUAQlQ7dl_!!4241364049.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">BEKIND可可海盐巴旦木坚果能量棒坚果零食大礼包40g*12条</div>
+                                        <div class="price">¥167.00</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+                            <div style="clear: both"></div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div>
+                    <img src="https://aecpm.alicdn.com/simba/img/TB1_EfIJFXXXXXOXFXXSutbFXXX.jpg" width="100%
+                        height=" 90">
+                </div>
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <i></i>
+
+                        <span>美丽人生</span>&nbsp;FASHION & BEAUTY
+                    </div>
+
+                    <div class="line-body">
+
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tps/i4/TB1392jcQxz61VjSZFrSuteLFXa.jpg" alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">珠宝美饰</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">浪漫仲夏</span>
+                                            <span class="right-title2">婚嫁尖货</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/188124207/O1CN01DaGJyS1gwqk7j4ie7_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">唐狮2018新款秋冬高领女打底毛衣裙连衣裙中长针织配大衣的长裙子</div>
+                                        <div class="price">¥159</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/3085319057/TB2QFtHoeGSBuNjSspbXXciipXa_!!3085319057-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">大宝水凝保湿水乳霜三件套补水乳液面霜面部护肤品套装国货正品</div>
+                                        <div class="price">¥59.9</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/2103359059/TB2n9ogpkOWBuNjSsppXXXPgpXa_!!2103359059-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">夏季迷彩工装七分裤大码宽松夏天休闲短裤男士军装多袋中裤子男潮</div>
+                                        <div class="price">¥69</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/TB1wtl8QpXXXXbvXVXXXXXXXXXX_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">回力男鞋帆布鞋男白布鞋学生休闲鞋男韩版小白鞋板鞋男潮</div>
+                                        <div class="price">¥59</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/1729138498/TB13lVchv9TBuNjy1zbXXXpepXa_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">断码鸿星尔克跑步鞋男鞋秋季透气运动鞋网面时尚休闲鞋男士跑鞋潮</div>
+                                        <div class="price">¥59</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/1675293993/O1CN016wdKzN1fMpzKmB2vl_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">达芙妮旗下鞋柜女鞋夹脚平底花朵水钻夹趾女凉鞋1717303046</div>
+                                        <div class="price">¥39</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/2455420361/O1CN011EXNSHLZKefU8UH_!!2-item_pic.png"
+                                            alt="">
+
+                                        <div class="commodity-name">瑞戈瑞士军刀旅行包男短途手提包旅行袋女大容量出差行李包健身包</div>
+                                        <div class="price">¥139</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/3539093100/O1CN01TjpevB1YlqKw8wGuS_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">笑涵阁い圆领短袖金丝拼接 印花鱼尾气质连衣裙女夏新 QZ114243ML</div>
+                                        <div class="price">¥208</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <i></i>
+
+                        <span>潮电酷玩</span>&nbsp;ELECTRONICS
+                    </div>
+
+                    <div class="line-body">
+
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tps/i4/TB1sgSzhFcJL1JjSZFOwu3WlXXa.png" alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">明星同款</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">畅享音乐</span>
+                                            <span class="right-title2">耳机发烧友</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/2127024738/O1CN011ks329nHyrZ6B0M_!!2-item_pic.png"
+                                            alt="">
+
+                                        <div class="commodity-name">tigo/金泰克P600 120G M.2固态硬盘笔记本固态ssd 硬盘2280PCI-E
+                                        </div>
+                                        <div class="price">¥185</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/2133729733/O1CN01DaRy5m2LllPdO7ZTg_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【先马灵狐5号游戏机箱】</div>
+                                        <div class="price">¥219</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/1123069416/O1CN01FQpt1t2JQZqrwqmVc_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">SAST/先科 U盘 看戏机8g 16g 32gU盘视频资源带U盘配送点歌本</div>
+                                        <div class="price">¥80</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/3283306745/O1CN01mo3NoD1zhG0ECoUQ4_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">
+                                            影巨人蓝牙耳机无线耳塞式双耳苹果X通用iphone6运动触控跑步隐形一对迷你超小入耳式篮牙5.0开车</div>
+                                        <div class="price">¥88</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/4222945926/O1CN01SA4eQl1te9Yp8fAYV_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">Mionix Alioth 大熊座 ε 细密纤维游戏鼠标垫包边防水电竞鼠标垫</div>
+                                        <div class="price">¥199</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/TB1MU_aJFXXXXbpXVXXXXXXXXXX_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">北通 智游者卡洛勇者大冒险定制版 乐视康佳 小米机顶盒 平板手机</div>
+                                        <div class="price">¥129</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/369155151/TB1pmJSgILJ8KJjy0FnXXcFDpXa_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">黑爵X1180有线键盘鼠标套装台式笔记本电脑商务办公键鼠防水套件</div>
+                                        <div class="price">¥79</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/4120016954/O1CN01WtHOm321EymQQF7yd_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">夏新工业空调扇家用商用冷风机大风量冷风扇水冷风扇制冷水空调</div>
+                                        <div class="price">¥618</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div>
+                    <img src="https://img.alicdn.com/tps/TB1MP5eNVXXXXXgXFXXXXXXXXXX-1620-90.jpg" width="100%
+                        height=" 90">
+                </div>
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <i></i>
+
+                        <span>居家生活</span>&nbsp;GROCERY & HEALTH
+                    </div>
+
+                    <div class="line-body">
+
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tps/i4/TB11tTYd3mH3KVjSZKzSuv2OXXa.jpg" alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">无用集市</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">为你精选</span>
+                                            <span class="right-title2">美好之物</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/2231853450/TB2hiTUouuSBuNjy1XcXXcYjFXa_!!2231853450-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">越南进口Lipo奶油鸡蛋面包干300g 进口休闲糕点点心零食品</div>
+                                        <div class="price">¥15.8</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/2592893621/O1CN014RPowq1ccSgjjXAI0_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">【官方旗舰店】生而为赢+希望长着翅膀+摘取梦想的启明星+云端的歌唱(共4本)
+                                            背诵美文30篇初级中级中英文对照英语书籍
+                                            新东方官网</div>
+                                        <div class="price">¥27.44</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/2200606627446/O1CN011k6UDG24sJcwDpJ62_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">幼儿童专注力贴纸书0-3456岁宝宝早教贴画贴图小孩粘贴纸益智玩具</div>
+                                        <div class="price">¥19.8</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i8/TB1SL8.QXXXXXbNXpXXMnXc9VXX_045627.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">剁手价！汤臣倍健R锌咀嚼片 0.4g/片*60片 儿童补锌男性备孕 正品</div>
+                                        <div class="price">¥58</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/2137075506/O1CN01FU6G2u1qXnHFdt9tx_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">
+                                            得力订书钉23/13订书针0013不锈钢订书钉大号重型加厚钉书针通用型订书机钉子装书订机钉书订办公用品定书钉</div>
+                                        <div class="price">¥2.9</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/2130574756/TB1vns8cBDH8KJjSspnXXbNAVXa_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">金冠黑糖话梅糖棒棒糖20支 80 90后怀旧零食品儿童休闲棒棒糖批发</div>
+                                        <div class="price">¥11.8</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/TB1E5HZRFXXXXaXXpXXXXXXXXXX_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">诺瑞猫用湿粮包75g/包 成猫幼猫罐头猫零食鲜肉包妙鲜包</div>
+                                        <div class="price">v4.9</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/2650059683/O1CN01WmSwJX2LOraUd6anP_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">
+                                            白雪直液式走珠笔速干笔彩色中性笔考试笔中性笔签字笔文具0.5mmx88针管型直液可换笔芯水性笔芯笔芯0.38mm</div>
+                                        <div class="price">¥16.8</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <i></i>
+
+                        <span>打造爱巢</span>&nbsp;GROCERY & HEALTH
+                    </div>
+
+                    <div class="line-body">
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tps/i4/TB1XcD2dv1H3KVjSZFHSuvKppXa.jpg" alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">GO</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">冰洗清凉节</span>
+                                            <span class="right-title2">大牌直降</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/2200616565718/O1CN01nVcAu01s6tESJE79I_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">蹲便厕所凳蹲坐老人低小孩卫生间男童幼童家用矮蹲坑坐便器大便器</div>
+                                        <div class="price">¥51.51</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i1/2892507074/O1CN01IMneI5227wJ8MQbuF_!!2-item_pic.png"
+                                            alt="">
+
+                                        <div class="commodity-name">苏泊尔电热水壶官方旗舰店烧水壶家用304不锈钢自动断电保温水器</div>
+                                        <div class="price">¥79</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/3305375223/TB1w6OPa9zqK1RjSZPxXXc4tVXa_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">小熊绞肉机家用电动不锈钢小型多功能搅馅辣椒打蒜泥器切碎搅肉机</div>
+                                        <div class="price">¥79</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/3952492745/O1CN012K0zyo1W9FjnPFd3n_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">九阳 JK-45H02电火锅多功能韩式电炒锅电热锅煎锅煮锅</div>
+                                        <div class="price">¥119</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/1759568212/O1CN01c50Dao2AX91nUcIsr_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">神州电磁炉家用特价正品智能火锅炉配饭煲迷你型节能全套装2200瓦</div>
+                                        <div class="price">¥52.8</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/2815734798/TB2t0.RdCzqK1RjSZFLXXcn2XXa_!!2815734798-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">行李车家用折叠手推车购物买菜小拉车便携式行李拉车拉杆车</div>
+                                        <div class="price">¥228</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/TB17DxEJpXXXXbHXFXXXXXXXXXX_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">萨美卡 无靠背平板机场椅 不锈钢排椅银行等候椅医院候车椅</div>
+                                        <div class="price">v493</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/1872743086/TB2mraCEbSYBuNjSspiXXXNzpXa_!!1872743086-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">妙轩 柔软床褥大学生宿舍床垫被防滑加厚可折叠1.8m床0.9米上下铺</div>
+                                        <div class="price">¥126</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div>
+                    <img src="https://img.alicdn.com/tps/TB1MP5eNVXXXXXgXFXXXXXXXXXX-1620-90.jpg" width="100%
+                        height=" 90">
+                </div>
+
+                <div class="partition">
+                    <div class="partition-name">
+                        <i></i>
+
+                        <span>户外出行</span>&nbsp;OUTDOORS & AUTOMOTIVE
+                    </div>
+
+                    <div class="line-body">
+
+
+                        <div>
+                            <div class="partition-print">
+                                <a href="#">
+                                    <img src="https://img.alicdn.com/tps/i4/TB1w6JJhol7MKJjSZFDwu1OEpXa.png" alt="">
+
+                                    <div class="banner-detail">
+
+                                        <div class="left-title-wrap">
+                                            <span class="left-title">户外大牌</span>
+                                        </div>
+                                        <div class="right-title-wrap">
+                                            <span class="right-title1">拎包远足</span>
+                                            <span class="right-title2">套装爆款</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="detail-wrap">
+                                        <img class="floor-arrow-big"
+                                            src="https://img.alicdn.com/tfs/TB1IQBtXaagSKJjy0FbXXa.mVXa-68-68.png">
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="commodity">
+
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/474719868/TB2vEMEc4TpK1RjSZR0XXbEwXXa_!!474719868-0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">望远镜博冠高清高倍微光夜视双筒手机儿童夜视眼镜演唱会便携迷你</div>
+                                        <div class="price">¥168</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/1784314386/O1CN010BfPPv1iGpeQLGF6W_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">Adidas阿迪达斯男女包2019春季新款足球运动抽绳双肩背包BR5051</div>
+                                        <div class="price">¥72</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/772352677/O1CN01Mc8C5l1Ve6nwFcv5q_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">探路者男T恤夏季新款户外潮流半袖印花透气圆领短袖T恤TAJG81935</div>
+                                        <div class="price">¥79</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/748166269/O1CN01hv3xb51wBFTT6aKoD_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">李宁羽毛球鞋男鞋舒适透气羽毛球系列 AYTL017羽毛球训练运动鞋</div>
+                                        <div class="price">¥109</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i3/4116366996/O1CN01ku1g1J21YDNj14bca_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">CANADA GOOSE / 加拿大鹅 Kent夹克 2412M</div>
+                                        <div class="price">¥5900</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/772352677/O1CN01xh3VE11Ve6mK2dcCF_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">PUMA彪马男女包2019新款串标大容量旅游背包书包运动双肩包075435</div>
+                                        <div class="price">¥219</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i4/2201263184241/O1CN011sqcY51hCQFIpREeT_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">Kappa卡帕情侣款吃豆人运动小单肩包男女户外旅行包|K07Y8BX25D</div>
+                                        <div class="price">¥99</div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="commodity-print">
+                                        <img src="http://gw.alicdn.com/bao/uploaded/i2/1644962422/O1CN01Ix00zj1TlJoFGhF29_!!0-item_pic.jpg"
+                                            alt="">
+
+                                        <div class="commodity-name">安踏小挎包女包双肩包花卉图案学生日常休闲包便携运动包19928167</div>
+                                        <div class="price">¥79</div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+                            <div style="clear: both"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="wonderful">
+                <h2 class="wonderful-title">--猜你喜欢--
+                </h2>
+                <div class="wonderful-list commodity">
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB14cp2V3HqK1RjSZFkXXX.WFXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_每日坚果750g/30天装】混合果仁零食大礼包组合送礼</div>
+                            <div class="price">¥138</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB14cp2V3HqK1RjSZFkXXX.WFXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_每日坚果750g/30天装】混合果仁零食大礼包组合送礼</div>
+                            <div class="price">¥138</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB14cp2V3HqK1RjSZFkXXX.WFXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_每日坚果750g/30天装】混合果仁零食大礼包组合送礼</div>
+                            <div class="price">¥138</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB14cp2V3HqK1RjSZFkXXX.WFXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_每日坚果750g/30天装】混合果仁零食大礼包组合送礼</div>
+                            <div class="price">¥138</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB14cp2V3HqK1RjSZFkXXX.WFXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_每日坚果750g/30天装】混合果仁零食大礼包组合送礼</div>
+                            <div class="price">¥138</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1.qWOUzTpK1RjSZKPXXa3UpXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_零食大礼包】休闲食品坚果膨化零食充饥夜宵整箱送人</div>
+                            <div class="price">¥59.9</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1.qWOUzTpK1RjSZKPXXa3UpXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_零食大礼包】休闲食品坚果膨化零食充饥夜宵整箱送人</div>
+                            <div class="price">¥59.9</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1.qWOUzTpK1RjSZKPXXa3UpXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_零食大礼包】休闲食品坚果膨化零食充饥夜宵整箱送人</div>
+                            <div class="price">¥59.9</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1.qWOUzTpK1RjSZKPXXa3UpXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_零食大礼包】休闲食品坚果膨化零食充饥夜宵整箱送人</div>
+                            <div class="price">¥59.9</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1.qWOUzTpK1RjSZKPXXa3UpXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">【三只松鼠_零食大礼包】休闲食品坚果膨化零食充饥夜宵整箱送人</div>
+                            <div class="price">¥59.9</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1N8YqVhnaK1RjSZFBXXcW7VXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">绝世澳洲家庭原肉整切牛排套餐黑椒牛肉10片儿童新鲜菲力西冷</div>
+                            <div class="price">¥198</div>
+
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1N8YqVhnaK1RjSZFBXXcW7VXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">绝世澳洲家庭原肉整切牛排套餐黑椒牛肉10片儿童新鲜菲力西冷</div>
+                            <div class="price">¥198</div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1N8YqVhnaK1RjSZFBXXcW7VXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">绝世澳洲家庭原肉整切牛排套餐黑椒牛肉10片儿童新鲜菲力西冷</div>
+                            <div class="price">¥198</div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1N8YqVhnaK1RjSZFBXXcW7VXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">绝世澳洲家庭原肉整切牛排套餐黑椒牛肉10片儿童新鲜菲力西冷</div>
+                            <div class="price">¥198</div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/bao/upload/TB1N8YqVhnaK1RjSZFBXXcW7VXa.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">绝世澳洲家庭原肉整切牛排套餐黑椒牛肉10片儿童新鲜菲力西冷</div>
+                            <div class="price">¥198</div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/i4/2088151283/O1CN01Q3hW691LLed069ZUu_!!2-item_pic.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">苏泊尔电烤箱家用烘焙小型烤箱多功能全自动蛋糕35L升大容量正品</div>
+                            <div class="price">¥339</div>
+
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/i4/2088151283/O1CN01Q3hW691LLed069ZUu_!!2-item_pic.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">苏泊尔电烤箱家用烘焙小型烤箱多功能全自动蛋糕35L升大容量正品</div>
+                            <div class="price">¥339</div>
+
+                        </div>
+                    </a>
+
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/i4/2088151283/O1CN01Q3hW691LLed069ZUu_!!2-item_pic.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">苏泊尔电烤箱家用烘焙小型烤箱多功能全自动蛋糕35L升大容量正品</div>
+                            <div class="price">¥339</div>
+
+                        </div>
+                    </a>
+
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/i4/2088151283/O1CN01Q3hW691LLed069ZUu_!!2-item_pic.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">苏泊尔电烤箱家用烘焙小型烤箱多功能全自动蛋糕35L升大容量正品</div>
+                            <div class="price">¥339</div>
+
+                        </div>
+                    </a>
+
+
+                    <a href="#">
+                        <div class="commodity-print">
+                            <img src="http://img.alicdn.com/bao/uploaded/i4/2088151283/O1CN01Q3hW691LLed069ZUu_!!2-item_pic.png_400x400q60.jpg"
+                                alt="">
+
+                            <div class="commodity-name">苏泊尔电烤箱家用烘焙小型烤箱多功能全自动蛋糕35L升大容量正品</div>
+                            <div class="price">¥339</div>
+
+                        </div>
+                    </a>
+
+
+
+
+
+
+
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div>
+                <div class="tm-end">
+
+
+                </div>
+            </div>
+
+
+
+            <div style="clear: both"></div>
+
+
+        </div>
+
+    </div>
+
+
+    <div id="footer">
+
+        <div id="tmall-ensure"></div>
+        <div id="tmall-desc">
+
+            <div>
+                <div>
+                    <span>购物指南</span>
+                </div>
+                <div>
+                    <a href="">免费注册</a>
+                    <a href="">开通支付宝</a>
+                    <a href="">支付宝充值</a>
+                </div>
+
+
+            </div>
+
+            <div>
+                <div>
+                    <span>天猫保障</span>
+                </div>
+                <div>
+                    <a href="">发票保障</a>
+                    <a href="">售后规则</a>
+                    <a href="">缺货赔付</a>
+                </div>
+
+
+            </div>
+
+
+            <div>
+                <div>
+                    <span>支付方式</span>
+                </div>
+                <div>
+                    <a href="">快捷支付</a>
+                    <a href="">信用卡</a>
+                    <a href="">余额宝</a>
+                    <a href="">蚂蚁花呗</a>
+                    <a href="">货到付款</a>
+
+                </div>
+
+
+            </div>
+
+
+            <div>
+                <div>
+                    <span>商家服务</span>
+                </div>
+                <div>
+                    <a href="">天猫规则</a>
+                    <a href="">商家入驻</a>
+                    <a href=""></a>
+                    <a href="">天猫智库</a>
+                    <a href="">物流服务</a>
+                    <a href="">喵言喵语</a>
+                    <a href="">运营服务</a>
+
+                </div>
+
+            </div>
+
+            <div>
+                <div>
+                    <span>手机天猫</span>
+                </div>
+                <div>
+                    <a href="">
+                        <img src="https://img.alicdn.com/tfscom/TB14MWoNhjaK1RjSZFAwu2dLFXa.png" width="105"
+                            height="105" alt="手机天猫">
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div style="clear: both"></div>
+
+        </div>
+
+        <div id="tmall-copyright">
+            <p class="footer-tmallinfo">
+                <a href="" target="_blank">关于天猫</a>
+                <a href="" target="_blank">帮助中心</a>
+                <a href="" target="_blank">开放平台</a>
+                <a href="" target="_blank">诚聘英才</a>
+                <a href="" target="_blank">联系我们</a>
+                <a href="" target="_blank">网站合作</a>
+                <a href="" target="_blank">法律声明</a>
+                <a href="/" target="_blank">隐私权政策</a>
+                <a href="" target="_blank">知识产权</a>
+                <a href="L" target="_blank">廉正举报</a>
+                <a class="footer-fp-rule" style="display:none;" href="" target="_blank">规则意见征集</a>
+            </p>
+            <p class="footer-otherlink">
+                <a href="" target="_blank">阿里巴巴集团</a>|
+                <a href="" target="_blank">淘宝网</a> |
+                <a href="" target="_blank">天猫</a> |
+                <a href="" target="_blank">聚划算</a> |
+                <a href="" target="_blank">全球速卖通</a> |
+                <a href="" target="_blank">阿里巴巴国际交易市场</a>|
+                <a href="" target="_blank">1688</a> |
+                <a href="" target="_blank">阿里妈妈</a> |
+                <a href="" target="_blank">飞猪</a> |
+                <a href="" target="_blank">阿里云计算</a> |
+                <a href="" target="_blank">AliOS</a> |
+                <a href="" target="_blank">阿里通信</a> |
+                <a href="" target="_blank">万网</a> |
+                <a href="" target="_blank">高德</a> |
+                <a href="" target="_blank">UC</a> |
+                <a href="" target="_blank">友盟</a> |
+                <a href="" target="_blank">虾米</a> |
+                <a href="" target="_blank">钉钉</a> |
+                <a href="" target="_blank">支付宝</a>
+            </p>
+
+            <div class="footer-copyright">
+
+                <span>增值电信业务经营许可证：浙B2-20110446</span>
+                <span>市场名称登记证：工商网市字3301004119号</span>
+                <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+                <br>
+
+                <span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+                <span>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</span>
+                <span>浙公网安备 33010002000120号
+                </span>
+                <br>
+                <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+                <span>互联网药品交易服务资格证书：国A20150001</span>
+                <br>
+                <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+                <span>12318举报</span>
+                <br>
+                <span>© 2003-2019 TMALL.COM 版权所有</span>
+                <br>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
 
 </body>
 
