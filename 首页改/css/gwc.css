@@ -1,0 +1,598 @@
+.header {
+    z-index: 10000;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.zb {
+    width: 1190px;
+    margin: 0 auto;
+    height: 35px;
+    background: #f5f5f5;
+    display: block;
+
+}
+
+.header>.zb>ul>li {
+    float: left;
+}
+
+
+.zba {
+    float: left;
+    line-height: 35px;
+}
+
+
+.s1 {
+    display: block;
+    width: 45px;
+    height: 35px;
+    background: url("./img/v1.png") no-repeat;
+    float: left;
+}
+
+.s2 {
+    display: block;
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+.s3 {
+    display: block;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+
+.zb1-1>ul>li {
+
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 0px;
+    float: right;
+}
+
+.zb1-1>ul li :hover {
+    background: white;
+}
+
+.zb2-1 {
+    opacity: 1;
+    /* 过度动画效果 */
+    transition: opacity .3s ease-in;
+    opacity: 1;
+    position: relative;
+}
+
+.zb2-1 .zb3-3 {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+    opacity: 0;
+    transition: opacity 3s ease-in;
+}
+
+.zb3-3 {
+    background: white;
+    border: 1px solid #E5E5E5;
+}
+
+.zb2-1:hover .zb3-3 {
+    display: block;
+    opacity: 1;
+    transition: opacity 3s ease-in;
+}
+
+.zb2-2>ul>li>a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 15px;
+    float: left;
+    margin: 0px 0px;
+
+}
+
+.zb2-2>ul>li {
+    width: 100%;
+
+    height: 35px;
+    position: relative;
+}
+
+.zb2-1 {
+    position: relative;
+}
+
+.kk {
+    width: 1190px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.a1 {
+    width: 183px;
+    height: 80px;
+    display: block;
+    float: left;
+}
+
+.ip1 {
+    float: right;
+    height: 30px;
+    width: 265px;
+}
+
+.ip2 {
+    float: right;
+    font-size: 18px;
+    color: azure;
+    background: #FF4400;
+    width: 92px;
+    height: 34px;
+    border: none;
+
+}
+
+.a2 {
+    display: block;
+    float: right;
+    width: 436px;
+    height: 34px;
+    border: 2px solid #FF4400;
+    margin-top: 21px;
+
+}
+
+.sp1 {
+    width: 75px;
+    height: 30px;
+    background: url("./img/bb.png") no-repeat center;
+    float: right;
+}
+
+.kk2 {
+    width: 1190px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E6E6E6;
+    margin-top: 20px;
+}
+
+.kk2>.kk2-1>ul>li {
+    display: block;
+    float: left;
+
+    width: 135px;
+    height: 45px;
+}
+
+.kk2>.kk2-1>ul>li>a {
+    display: block;
+    font-size: 17px;
+    line-height: 45px;
+}
+
+ul>li>.kkl {
+    color: #FF4400;
+}
+
+ul>li>a:hover {
+    border-bottom: 2px solid #FF4400;
+}
+
+.kk2-2 {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+.kk2-2>span {
+    display: block;
+    float: right;
+    margin-top: -5px;
+    width: 56px;
+    height: 26px;
+    line-height: 26px;
+    background: #AAAAAA;
+    text-align: center;
+
+}
+
+.kk2-2>p {
+    display: block;
+    float: right;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.kk3 {
+    width: 1190px;
+    height: 60px;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+
+.kk3-1 {
+    float: left;
+
+    margin-top: 15px;
+    line-height: 15px;
+    margin-right: 20px;
+}
+
+.kk3-1>ul>.ip3 {
+    margin-right: 5px;
+}
+
+.kk3-1>ul>li>span {
+    float: left;
+    margin-right: 70px;
+}
+
+.kk3-1>ul>li {
+    float: left;
+
+}
+
+.kk3-2>ul>li {
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+
+.kk4-1 {
+    /* border: 1px solid red; */
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.kk4-1>ul>li {
+    float: left;
+}
+
+/* .kk4-1>ul>.kk4-2 {
+
+    padding-left: 20px;
+} */
+
+
+.kk5 {
+    /* border: 1px solid #E6E6E6; */
+
+    width: 1190px;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+}
+
+.kk5-0 {
+    /* border-top: 1px solid #E6E6E6; */
+
+    border: 1px solid#E6E6E6;
+    width: 1190px;
+    height: 124px;
+
+}
+
+.kk5-1 ul li {
+    float: left;
+}
+
+.kk5-1>ul>li>input {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.kk5-1>ul>li>img {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kk5-1 {
+    float: left;
+}
+
+.kk5-1>ul>li>a {
+    margin-left: 10px;
+    display: block;
+    width: 190px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.kk5-2 {
+    float: right;
+}
+
+.kk5-2 ul li {
+    float: left;
+
+
+}
+
+.kk5-2 ul li>input {
+    width: 30px;
+}
+
+.kk5-2 ul .kk5-6 {
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.kk5-2 ul .kk5-5 {
+    margin-top: 28px;
+    margin-right: 60px;
+}
+
+.kk5-2 ul .kk5-4 {
+    margin-top: 28px;
+    margin-right: 90px;
+}
+
+.kk5-2 ul .kk5-3 {
+    margin-top: 28px;
+    margin-right: 67px;
+}
+
+
+.kk5-6 .h3-1 .h3-2 ul li {
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 0px;
+    width: 70px;
+
+
+}
+
+.kk5-6 .h3-1 .h3-2 ul li>a {
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0px 1px;
+    float: left;
+    margin: 0px 0px;
+}
+
+.l1 {
+
+    float: left;
+    height: 50px;
+    width: 340px;
+}
+
+.m2>a {
+    display: block;
+
+    float: left;
+    margin-left: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.m1 {
+
+    display: block;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    margin-left: 5px;
+}
+
+.l2 {
+
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    width: 420px;
+
+}
+
+.m2>a:hover {
+    color: #FF6600;
+}
+
+.m3>span {
+    display: inline;
+    height: 50px;
+    width: 10px;
+    color: #FF4400;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.m4 {
+
+    margin-left: 45px;
+    float: left;
+}
+
+.m5 {
+
+    color: #FF4400;
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+}
+
+.m7 {
+
+    float: left;
+}
+
+.m6 {
+
+    display: block;
+    height: 50px;
+    width: 120px;
+    float: right;
+    background-color: #B0B0B0;
+}
+
+.l2>a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.ma-dv9 {
+    width: 1190px;
+    height: 50px;
+    background-color: #E5E5E5;
+    margin: 0px auto;
+
+}
+
+.ma-dv10 {
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+
+}
+
+.bo ul li {
+    float: left;
+
+}
+
+.bo ul li>a {
+
+    float: left;
+    font-size: 15px;
+    margin-top: 40px;
+    padding: 5px;
+
+}
+
+.bo {
+    border-bottom: 2px solid #B0B0B0;
+
+}
+
+.bo ul li :hover {
+    border-bottom: 2px solid orangered;
+
+}
+
+.bt2 {
+    width: 220px;
+    border: 1px solid #B0B0B0;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.bt2-1 {
+    font-size: 20px;
+    color: coral;
+}
+
+.bt2-2 {
+    width: 220px;
+
+}
+
+.bt1 .bt2 {
+    float: left;
+}
+
+
+.xbk {
+    text-align: left;
+    display: block;
+
+}
+
+.xbk1 {
+    text-align: left;
+    display: block;
+    margin-top: 50px;
+
+}
+
+.k1 {
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 5px 0;
+
+
+}
+
+
+
+.k2 {
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 5px 0;
+
+
+}
+
+
+p {
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.xbk1 p a {
+    margin-right: 3px;
+}
+
+.k3 {
+    width: 1190px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.k3 a {
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

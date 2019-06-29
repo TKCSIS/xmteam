@@ -1,0 +1,272 @@
+.header {
+    padding: 22px 0px;
+    height: 44px;
+    width: 1190px;
+    margin: auto;
+    display: block;
+    /* border: 3px solid red; */
+
+}
+
+.header>a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 182px;
+    height: 33px;
+    margin-top: 8px;
+    /* border: 1px solid red; */
+}
+
+
+.concent {
+    width: 100%;
+    display: block;
+    /* position: relative; */
+}
+
+.login {
+    width: 100%;
+    background-color: rgb(0, 163, 194);
+    /* border: 3px solid red; */
+    display: block;
+}
+
+.login>.lo-in {
+    width: 1190px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    /* border: 3px solid red; */
+}
+
+.lo-in {
+    background: url("../img/datu.jpg") no-repeat center;
+    position: relative;
+}
+
+.login img {
+    display: block;
+    margin: auto;
+}
+
+.cl>a {
+    /* display: block; */
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 630px;
+    height: 440px;
+    border: none;
+    outline: none;
+    /* border: 2px solid blue; */
+}
+
+
+.lo-dl {
+    width: 350px;
+    height: 404px;
+    /* border: 2px solid blue; */
+    float: right;
+    position: absolute;
+    top: 95px;
+    right: 70px;
+    display: block;
+    background: white;
+}
+
+.lo-dl1 {
+    width: 350px;
+    display: block;
+
+
+    /* height: 68px; */
+    position: relative;
+
+}
+
+.hh2 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.t1 {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    bottom: 35px;
+}
+
+.t2 {
+    position: absolute;
+    top: 8px;
+    right: 56px;
+    bottom: 66px;
+}
+
+.lo-wb {
+    width: 350px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.lo-wbk {
+    width: 300px;
+    height: 41px;
+
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+
+.lo-wbk .ipt {
+    width: 260px;
+    height: 37px;
+    /* border: 1px solid blue; */
+    display: block;
+    margin-left: 41px;
+    text-indent: 1em;
+}
+
+.lo-wbk>i {
+    position: absolute;
+    display: block;
+    width: 41px;
+    height: 41px;
+    z-index: 10;
+    top: 0px;
+    left: 1px;
+}
+
+
+.userlogo {
+    background: url("../img/zh.png") no-repeat;
+}
+
+.pawdlogo {
+    background: url("../img/suo.png") no-repeat;
+}
+
+.lo-ld {
+    display: block;
+    width: 300px;
+    height: 42px;
+
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.ln-btn {
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: #FF0036;
+    border: none;
+}
+
+.lo-dd {
+
+    margin: 0 auto;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    width: 300px;
+    display: block;
+}
+
+.lo-dd>ul {
+    float: right;
+    margin-right: 10px;
+
+
+    display: inline;
+}
+
+.lo-dd>ul>li {
+    display: inline-block;
+    padding: 4px;
+}
+
+.logo>a {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    /* margin-bottom: 0;
+    padding-bottom: 0;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    position: relative; */
+
+}
+
+
+.xbk {
+    text-align: left;
+    display: block;
+
+}
+
+.xbk1 {
+    text-align: left;
+    display: block;
+    margin-top: 50px;
+
+}
+
+.k1 {
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 5px 0;
+
+
+}
+
+
+
+.k2 {
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 5px 0;
+
+
+}
+
+
+p {
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.xbk1 p a {
+    margin-right: 3px;
+}
+
+.k3 {
+    width: 1190px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.k3 a {
+    margin-right: 25px;
+    margin-top: 5px;
+}

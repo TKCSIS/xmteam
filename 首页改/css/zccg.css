@@ -1,0 +1,128 @@
+.bk1 {
+    width: 900px;
+    margin: 0 auto;
+
+
+    display: block;
+
+}
+
+.bk2 {
+    width: 740px;
+    height: 45px;
+
+    margin: 0 auto;
+}
+
+.ck1 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck2 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck3 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck4 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+
+}
+
+.s1 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    background: url("./img/hong.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s2 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s3 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s4 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+
+
+.main {
+    width: 100%
+}
+
+.main>.main-center {
+    width: 375px;
+    margin: 65px auto;
+}
+
+.main>.main-center>.dv1 {
+    margin: 100px 0px;
+    padding-left: 87px;
+}
+
+.main>.main-center>.dv1>span {
+    font-size: 24px;
+}
+
+.main>.main-center>.dv1>span>img {
+    vertical-align: middle;
+}

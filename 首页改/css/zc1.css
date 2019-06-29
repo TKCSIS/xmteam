@@ -1,0 +1,170 @@
+ .bk1 {
+     width: 900px;
+     margin: 0 auto;
+
+
+     display: block;
+
+ }
+
+ .bk2 {
+     width: 740px;
+     height: 45px;
+
+     margin: 0 auto;
+ }
+
+ .ck1 {
+     width: 184px;
+     height: 45px;
+     line-height: 45px;
+     float: left;
+     text-align: center;
+     font-size: 17px;
+     border-bottom: 2px solid red;
+     position: relative;
+ }
+
+ .ck2 {
+     width: 184px;
+     height: 45px;
+     line-height: 45px;
+     float: left;
+     text-align: center;
+     font-size: 17px;
+
+     position: relative;
+ }
+
+ .ck3 {
+     width: 184px;
+     height: 45px;
+     line-height: 45px;
+     float: left;
+     text-align: center;
+     font-size: 17px;
+     position: relative;
+ }
+
+ .ck4 {
+     width: 184px;
+     height: 45px;
+     line-height: 45px;
+     float: left;
+     text-align: center;
+     font-size: 17px;
+     position: relative;
+
+ }
+
+ .s1 {
+     width: 24px;
+     height: 45px;
+     line-height: 45px;
+     position: absolute;
+     top: 0px;
+     left: 18px;
+     background: url("./img/hong.png") no-repeat center;
+     color: aliceblue;
+ }
+
+ .s2 {
+     width: 24px;
+     height: 45px;
+     line-height: 45px;
+     position: absolute;
+     top: 0px;
+     left: 10px;
+     background: url("./img/bai.png") no-repeat center;
+     color: aliceblue;
+ }
+
+ .s3 {
+     width: 24px;
+     height: 45px;
+     line-height: 45px;
+     position: absolute;
+     top: 0px;
+     left: 10px;
+     background: url("./img/bai.png") no-repeat center;
+     color: aliceblue;
+ }
+
+ .s4 {
+     width: 24px;
+     height: 45px;
+     line-height: 45px;
+     position: absolute;
+     top: 0px;
+     left: 24px;
+     background: url("./img/bai.png") no-repeat center;
+     color: aliceblue;
+ }
+
+
+ /* ------------------------------------------------ */
+ .sj {
+     width: 900px;
+     height: 500px;
+
+ }
+
+ .zc {
+     width: 410px;
+     margin: 0 auto;
+     margin-top: 40px;
+
+     font-size: 16px;
+     display: block;
+ }
+
+ .se1 {
+
+     width: 165px;
+     height: 35px;
+     margin-left: 26px;
+ }
+
+ .ipt {
+     margin-left: -4px;
+ }
+
+ .zc2 {
+     width: 383px;
+
+
+     margin: 0 auto;
+     margin-top: 15px;
+     font-size: 16px;
+
+ }
+
+ .t1 {
+     width: 300px;
+     height: 40px;
+     line-height: 40px;
+     background: url("../img/yz.png") no-repeat;
+     display: block;
+     float: right;
+     margin-right: 19px;
+ }
+
+ .ss1 {
+     display: block;
+     float: left;
+     margin-top: 10px;
+     margin-left: 3px;
+ }
+
+ .xyb>a {
+     font-size: 20px;
+     display: block;
+     width: 180px;
+     height: 38px;
+     line-height: 36px;
+     margin-top: 32px;
+     margin-left: 322px;
+     text-align: center;
+     background: #FF0036;
+     color: white;
+ }

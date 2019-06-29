@@ -1,0 +1,188 @@
+.bk1 {
+    width: 900px;
+    margin: 0 auto;
+
+
+    display: block;
+
+}
+
+.bk2 {
+    width: 740px;
+    height: 45px;
+
+    margin: 0 auto;
+}
+
+.ck1 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck2 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck3 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    border-bottom: 2px solid red;
+}
+
+.ck4 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+
+}
+
+.s1 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    background: url("./img/hong.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s2 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s3 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s4 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+.dk {
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.k1 {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 300px;
+
+}
+
+.k1>span {
+    font-size: 15px;
+}
+
+
+
+.k1>input {
+    height: 25px;
+    width: 200px;
+}
+
+/* .cla>a {
+    font-size: 20px;
+    display: block;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+
+    text-align: center;
+    background: #FF0036;
+    color: white;
+    margin-top: 50px;
+} */
+
+
+
+
+.cla>.a1 {
+    font-size: 20px;
+    display: block;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+
+    text-align: center;
+    background: #FF0036;
+    color: white;
+    margin-top: 30px;
+    float: left;
+    margin-left: 400px;
+}
+
+.cla>.a2 {
+
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.cla2 {
+
+
+
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
+
+.cla2>a {
+    color: rgb(0, 8, 8);
+}
+
+.cla>a {
+    color: rgb(0, 8, 8);
+}

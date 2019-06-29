@@ -1,0 +1,155 @@
+.bk1 {
+    width: 900px;
+    margin: 0 auto;
+
+
+    display: block;
+
+}
+
+.bk2 {
+    width: 740px;
+    height: 45px;
+
+    margin: 0 auto;
+}
+
+.ck1 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck2 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+.ck3 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+}
+
+.ck4 {
+    width: 184px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+
+}
+
+.s1 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    background: url("./img/hong.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s2 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s3 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+.s4 {
+    width: 24px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    background: url("./img/bai.png") no-repeat center;
+    color: aliceblue;
+}
+
+
+/* ————————————————————————————————————————————————————————————————
+ */
+
+.dk {
+
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+.k1 {
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 400px;
+}
+
+.cla>a {
+    font-size: 20px;
+    display: block;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+
+    text-align: center;
+    background: #FF0036;
+    color: white;
+    margin-top: 30px;
+}
+
+.k1>span {
+    font-size: 15px;
+
+}
+
+.k11 {
+    margin-right: 238px;
+}
+
+
+.k1>input {
+    width: 250px;
+    height: 25px;
+    margin-right: -40px;
+}
+
+.c1 {
+    margin-right: 20px;
+}
