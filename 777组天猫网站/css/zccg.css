@@ -105,24 +105,32 @@
 
 
 
-.main {
-    width: 100%
+
+.main-center {
+
+
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.main>.main-center {
-    width: 375px;
-    margin: 65px auto;
+
+.dv1 {
+    display: block;
+
 }
 
-.main>.main-center>.dv1 {
-    margin: 100px 0px;
-    padding-left: 87px;
+.dv1-1>span {
+    display: block;
+    text-align: right;
+    margin-right: 452px;
+    margin-top: 20px;
 }
 
-.main>.main-center>.dv1>span {
-    font-size: 24px;
-}
+.dv2>a {
+    display: block;
 
-.main>.main-center>.dv1>span>img {
-    vertical-align: middle;
+    margin-left: 85px;
+    margin-top: 40px;
+
 }
